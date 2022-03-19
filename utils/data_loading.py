@@ -55,8 +55,9 @@ class BasicDataset(Dataset):
 
     def __getitem__(self, idx):
         name = self.ids[idx]
-        mask_file = list(self.masks_dir.glob(name + self.mask_suffix + '.*'))
-        img_file = list(self.images_dir.glob(name + '.*'))
+        #图片格式.xxx记得修改至与数据集相匹配
+        mask_file = list(self.masks_dir.glob(name + self.mask_suffix + '.jpg'))
+        img_file = list(self.images_dir.glob(name + '.jpg'))
 
         assert len(mask_file) == 1, f'Either no mask or multiple masks found for the ID {name}: {mask_file}'
         assert len(img_file) == 1, f'Either no image or multiple images found for the ID {name}: {img_file}'
@@ -77,4 +78,4 @@ class BasicDataset(Dataset):
 
 class CarvanaDataset(BasicDataset):
     def __init__(self, images_dir, masks_dir, scale=1):
-        super().__init__(images_dir, masks_dir, scale, mask_suffix='_mask')
+        super().__init__(images_dir, masks_dir, scale, mask_suffix='')#img和mask名称若一致，则mask_suffix=''（为空）

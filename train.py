@@ -17,7 +17,7 @@ from evaluate import evaluate
 from unet import UNet
 
 dir_img = Path('./data/imgs/')
-dir_mask = Path('./data/masks/')
+dir_mask = Path('./data/mask01/')
 dir_checkpoint = Path('./checkpoints/')
 
 
@@ -94,6 +94,11 @@ def train_net(net,
                            + dice_loss(F.softmax(masks_pred, dim=1).float(),
                                        F.one_hot(true_masks, net.n_classes).permute(0, 3, 1, 2).float(),
                                        multiclass=True)
+                    # if net.n_classes > 1: 
+                    #     loss = criterion(masks_pred, true_masks.squeeze(1)) # 求损失  # patch 123#bug
+                    # else:
+                    #     loss = criterion(masks_pred, true_masks) # 求损失
+
 
                 optimizer.zero_grad(set_to_none=True)
                 grad_scaler.scale(loss).backward()
@@ -143,7 +148,7 @@ def train_net(net,
             logging.info(f'Checkpoint {epoch + 1} saved!')
 
 
-def get_args():
+def get_args():#定义模型参数默认值
     parser = argparse.ArgumentParser(description='Train the UNet on images and target masks')
     parser.add_argument('--epochs', '-e', metavar='E', type=int, default=5, help='Number of epochs')
     parser.add_argument('--batch-size', '-b', dest='batch_size', metavar='B', type=int, default=1, help='Batch size')
@@ -161,15 +166,14 @@ def get_args():
 
 if __name__ == '__main__':
     args = get_args()
-
     logging.basicConfig(level=logging.INFO, format='%(levelname)s: %(message)s')
-    device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
+    device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')#优先使用GPU
     logging.info(f'Using device {device}')
 
     # Change here to adapt to your data
     # n_channels=3 for RGB images
     # n_classes is the number of probabilities you want to get per pixel
-    net = UNet(n_channels=3, n_classes=2, bilinear=args.bilinear)
+    net = UNet(n_channels=1, n_classes=2, bilinear=args.bilinear)
 
     logging.info(f'Network:\n'
                  f'\t{net.n_channels} input channels\n'

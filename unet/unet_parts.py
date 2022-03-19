@@ -1,11 +1,11 @@
 """ Parts of the U-Net model """
-
+#U-Net网络的组成部分
 import torch
 import torch.nn as nn
 import torch.nn.functional as F
 
 
-class DoubleConv(nn.Module):
+class DoubleConv(nn.Module):#连续的两个卷积层
     """(convolution => [BN] => ReLU) * 2"""
 
     def __init__(self, in_channels, out_channels, mid_channels=None):
@@ -27,7 +27,7 @@ class DoubleConv(nn.Module):
 
 class Down(nn.Module):
     """Downscaling with maxpool then double conv"""
-
+    #模型细化
     def __init__(self, in_channels, out_channels):
         super().__init__()
         self.maxpool_conv = nn.Sequential(
@@ -41,13 +41,13 @@ class Down(nn.Module):
 
 class Up(nn.Module):
     """Upscaling then double conv"""
-
+    #模型粗化
     def __init__(self, in_channels, out_channels, bilinear=True):
         super().__init__()
 
         # if bilinear, use the normal convolutions to reduce the number of channels
         if bilinear:
-            self.up = nn.Upsample(scale_factor=2, mode='bilinear', align_corners=True)
+            self.up = nn.Upsample(scale_factor=2, mode='bilinear', align_corners=True)#out=in*scale_factor
             self.conv = DoubleConv(in_channels, out_channels, in_channels // 2)
         else:
             self.up = nn.ConvTranspose2d(in_channels, in_channels // 2, kernel_size=2, stride=2)
@@ -71,7 +71,7 @@ class Up(nn.Module):
 class OutConv(nn.Module):
     def __init__(self, in_channels, out_channels):
         super(OutConv, self).__init__()
-        self.conv = nn.Conv2d(in_channels, out_channels, kernel_size=1)
+        self.conv = nn.Conv2d(in_channels, out_channels, kernel_size=1)#卷积核尺寸为1*1的卷积层
 
     def forward(self, x):
         return self.conv(x)

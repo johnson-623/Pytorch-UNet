@@ -1,5 +1,5 @@
 """ Full assembly of the parts to form the complete network """
-
+#U-Net网络的完整架构
 from .unet_parts import *
 
 
@@ -9,7 +9,8 @@ class UNet(nn.Module):
         self.n_channels = n_channels
         self.n_classes = n_classes
         self.bilinear = bilinear
-
+        
+        #DoubleConv,Down,Up,OutConv均来自unet_parts
         self.inc = DoubleConv(n_channels, 64)
         self.down1 = Down(64, 128)
         self.down2 = Down(128, 256)
