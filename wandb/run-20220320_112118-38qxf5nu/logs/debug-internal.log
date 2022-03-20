@@ -1,0 +1,573 @@
+2022-03-20 11:21:19,857 INFO    MainThread:11916 [internal.py:wandb_internal():95] W&B internal server running at pid: 11916, started at: 2022-03-20 11:21:19.844613
+2022-03-20 11:21:19,860 INFO    WriterThread:11916 [datastore.py:open_for_write():77] open: D:\GitHub_test\Pytorch-UNet\wandb\run-20220320_112118-38qxf5nu\run-38qxf5nu.wandb
+2022-03-20 11:21:19,860 DEBUG   SenderThread:11916 [sender.py:send():235] send: header
+2022-03-20 11:21:19,860 DEBUG   SenderThread:11916 [sender.py:send():235] send: run
+2022-03-20 11:21:19,860 INFO    SenderThread:11916 [sender.py:_maybe_setup_resume():493] checking resume status for None/U-Net/38qxf5nu
+2022-03-20 11:21:20,643 DEBUG   HandlerThread:11916 [handler.py:handle_request():141] handle_request: check_version
+2022-03-20 11:21:20,643 INFO    SenderThread:11916 [dir_watcher.py:__init__():169] watching files in: D:\GitHub_test\Pytorch-UNet\wandb\run-20220320_112118-38qxf5nu\files
+2022-03-20 11:21:20,643 INFO    SenderThread:11916 [sender.py:_start_run_threads():815] run started: 38qxf5nu with start time 1647746479
+2022-03-20 11:21:20,643 DEBUG   SenderThread:11916 [sender.py:send():235] send: summary
+2022-03-20 11:21:20,643 INFO    SenderThread:11916 [sender.py:_save_file():947] saving file wandb-summary.json with policy end
+2022-03-20 11:21:20,643 DEBUG   SenderThread:11916 [sender.py:send_request():249] send_request: check_version
+2022-03-20 11:21:21,468 DEBUG   HandlerThread:11916 [handler.py:handle_request():141] handle_request: run_start
+2022-03-20 11:21:21,506 DEBUG   HandlerThread:11916 [meta.py:__init__():37] meta init
+2022-03-20 11:21:21,506 DEBUG   HandlerThread:11916 [meta.py:__init__():51] meta init done
+2022-03-20 11:21:21,514 DEBUG   HandlerThread:11916 [meta.py:probe():211] probe
+2022-03-20 11:21:21,530 DEBUG   HandlerThread:11916 [meta.py:_setup_git():201] setup git
+2022-03-20 11:21:21,621 DEBUG   HandlerThread:11916 [meta.py:_setup_git():208] setup git done
+2022-03-20 11:21:21,621 DEBUG   HandlerThread:11916 [meta.py:_save_pip():55] save pip
+2022-03-20 11:21:21,633 DEBUG   HandlerThread:11916 [meta.py:_save_pip():69] save pip done
+2022-03-20 11:21:21,633 DEBUG   HandlerThread:11916 [meta.py:probe():249] probe done
+2022-03-20 11:21:21,688 DEBUG   SenderThread:11916 [sender.py:send():235] send: files
+2022-03-20 11:21:21,688 INFO    SenderThread:11916 [sender.py:_save_file():947] saving file wandb-metadata.json with policy now
+2022-03-20 11:21:21,688 DEBUG   HandlerThread:11916 [handler.py:handle_request():141] handle_request: stop_status
+2022-03-20 11:21:21,688 DEBUG   SenderThread:11916 [sender.py:send_request():249] send_request: stop_status
+2022-03-20 11:21:21,688 INFO    Thread-11 :11916 [dir_watcher.py:_on_file_created():217] file/dir created: D:\GitHub_test\Pytorch-UNet\wandb\run-20220320_112118-38qxf5nu\files\wandb-summary.json
+2022-03-20 11:21:21,688 INFO    Thread-11 :11916 [dir_watcher.py:_on_file_created():217] file/dir created: D:\GitHub_test\Pytorch-UNet\wandb\run-20220320_112118-38qxf5nu\files\requirements.txt
+2022-03-20 11:21:21,688 INFO    Thread-11 :11916 [dir_watcher.py:_on_file_created():217] file/dir created: D:\GitHub_test\Pytorch-UNet\wandb\run-20220320_112118-38qxf5nu\files\wandb-metadata.json
+2022-03-20 11:21:21,688 INFO    Thread-11 :11916 [dir_watcher.py:_on_file_created():217] file/dir created: D:\GitHub_test\Pytorch-UNet\wandb\run-20220320_112118-38qxf5nu\files\output.log
+2022-03-20 11:21:22,067 DEBUG   SenderThread:11916 [sender.py:send():235] send: telemetry
+2022-03-20 11:21:22,067 DEBUG   SenderThread:11916 [sender.py:send():235] send: config
+2022-03-20 11:21:23,156 INFO    Thread-17 :11916 [upload_job.py:push():137] Uploaded file C:\Users\Johnson\AppData\Local\Temp\tmpgsa3gthbwandb\2pb7tdcr-wandb-metadata.json
+2022-03-20 11:21:23,700 INFO    Thread-11 :11916 [dir_watcher.py:_on_file_modified():230] file/dir modified: D:\GitHub_test\Pytorch-UNet\wandb\run-20220320_112118-38qxf5nu\files\output.log
+2022-03-20 11:21:27,717 INFO    Thread-11 :11916 [dir_watcher.py:_on_file_modified():230] file/dir modified: D:\GitHub_test\Pytorch-UNet\wandb\run-20220320_112118-38qxf5nu\files\output.log
+2022-03-20 11:21:34,440 DEBUG   HandlerThread:11916 [handler.py:handle_request():141] handle_request: partial_history
+2022-03-20 11:21:34,440 DEBUG   SenderThread:11916 [sender.py:send():235] send: history
+2022-03-20 11:21:34,440 DEBUG   SenderThread:11916 [sender.py:send():235] send: summary
+2022-03-20 11:21:34,440 INFO    SenderThread:11916 [sender.py:_save_file():947] saving file wandb-summary.json with policy end
+2022-03-20 11:21:34,789 INFO    Thread-11 :11916 [dir_watcher.py:_on_file_modified():230] file/dir modified: D:\GitHub_test\Pytorch-UNet\wandb\run-20220320_112118-38qxf5nu\files\wandb-summary.json
+2022-03-20 11:21:35,801 INFO    Thread-11 :11916 [dir_watcher.py:_on_file_modified():230] file/dir modified: D:\GitHub_test\Pytorch-UNet\wandb\run-20220320_112118-38qxf5nu\files\output.log
+2022-03-20 11:21:37,069 DEBUG   HandlerThread:11916 [handler.py:handle_request():141] handle_request: stop_status
+2022-03-20 11:21:37,069 DEBUG   SenderThread:11916 [sender.py:send_request():249] send_request: stop_status
+2022-03-20 11:21:48,502 DEBUG   HandlerThread:11916 [handler.py:handle_request():141] handle_request: partial_history
+2022-03-20 11:21:48,518 DEBUG   SenderThread:11916 [sender.py:send():235] send: history
+2022-03-20 11:21:48,518 DEBUG   SenderThread:11916 [sender.py:send():235] send: summary
+2022-03-20 11:21:48,520 INFO    SenderThread:11916 [sender.py:_save_file():947] saving file wandb-summary.json with policy end
+2022-03-20 11:21:48,921 INFO    Thread-11 :11916 [dir_watcher.py:_on_file_modified():230] file/dir modified: D:\GitHub_test\Pytorch-UNet\wandb\run-20220320_112118-38qxf5nu\files\wandb-summary.json
+2022-03-20 11:21:49,935 INFO    Thread-11 :11916 [dir_watcher.py:_on_file_modified():230] file/dir modified: D:\GitHub_test\Pytorch-UNet\wandb\run-20220320_112118-38qxf5nu\files\output.log
+2022-03-20 11:21:51,947 INFO    Thread-11 :11916 [dir_watcher.py:_on_file_modified():230] file/dir modified: D:\GitHub_test\Pytorch-UNet\wandb\run-20220320_112118-38qxf5nu\files\config.yaml
+2022-03-20 11:21:52,537 DEBUG   HandlerThread:11916 [handler.py:handle_request():141] handle_request: stop_status
+2022-03-20 11:21:52,537 DEBUG   SenderThread:11916 [sender.py:send_request():249] send_request: stop_status
+2022-03-20 11:21:52,899 DEBUG   SenderThread:11916 [sender.py:send():235] send: stats
+2022-03-20 11:21:56,647 DEBUG   HandlerThread:11916 [handler.py:handle_request():141] handle_request: partial_history
+2022-03-20 11:21:56,647 DEBUG   SenderThread:11916 [sender.py:send():235] send: history
+2022-03-20 11:21:56,647 DEBUG   SenderThread:11916 [sender.py:send():235] send: summary
+2022-03-20 11:21:56,647 INFO    SenderThread:11916 [sender.py:_save_file():947] saving file wandb-summary.json with policy end
+2022-03-20 11:21:56,996 INFO    Thread-11 :11916 [dir_watcher.py:_on_file_modified():230] file/dir modified: D:\GitHub_test\Pytorch-UNet\wandb\run-20220320_112118-38qxf5nu\files\wandb-summary.json
+2022-03-20 11:21:58,000 INFO    Thread-11 :11916 [dir_watcher.py:_on_file_modified():230] file/dir modified: D:\GitHub_test\Pytorch-UNet\wandb\run-20220320_112118-38qxf5nu\files\output.log
+2022-03-20 11:22:04,631 DEBUG   HandlerThread:11916 [handler.py:handle_request():141] handle_request: partial_history
+2022-03-20 11:22:04,640 DEBUG   SenderThread:11916 [sender.py:send():235] send: history
+2022-03-20 11:22:04,640 DEBUG   SenderThread:11916 [sender.py:send():235] send: summary
+2022-03-20 11:22:04,642 INFO    SenderThread:11916 [sender.py:_save_file():947] saving file wandb-summary.json with policy end
+2022-03-20 11:22:05,062 INFO    Thread-11 :11916 [dir_watcher.py:_on_file_modified():230] file/dir modified: D:\GitHub_test\Pytorch-UNet\wandb\run-20220320_112118-38qxf5nu\files\wandb-summary.json
+2022-03-20 11:22:06,066 INFO    Thread-11 :11916 [dir_watcher.py:_on_file_modified():230] file/dir modified: D:\GitHub_test\Pytorch-UNet\wandb\run-20220320_112118-38qxf5nu\files\output.log
+2022-03-20 11:22:07,903 DEBUG   HandlerThread:11916 [handler.py:handle_request():141] handle_request: stop_status
+2022-03-20 11:22:07,903 DEBUG   SenderThread:11916 [sender.py:send_request():249] send_request: stop_status
+2022-03-20 11:22:23,243 DEBUG   HandlerThread:11916 [handler.py:handle_request():141] handle_request: stop_status
+2022-03-20 11:22:23,243 DEBUG   SenderThread:11916 [sender.py:send_request():249] send_request: stop_status
+2022-03-20 11:22:25,540 DEBUG   SenderThread:11916 [sender.py:send():235] send: stats
+2022-03-20 11:22:38,714 DEBUG   HandlerThread:11916 [handler.py:handle_request():141] handle_request: stop_status
+2022-03-20 11:22:38,714 DEBUG   SenderThread:11916 [sender.py:send_request():249] send_request: stop_status
+2022-03-20 11:22:54,187 DEBUG   HandlerThread:11916 [handler.py:handle_request():141] handle_request: stop_status
+2022-03-20 11:22:54,187 DEBUG   SenderThread:11916 [sender.py:send_request():249] send_request: stop_status
+2022-03-20 11:22:58,564 DEBUG   SenderThread:11916 [sender.py:send():235] send: stats
+2022-03-20 11:23:09,643 DEBUG   HandlerThread:11916 [handler.py:handle_request():141] handle_request: stop_status
+2022-03-20 11:23:09,643 DEBUG   SenderThread:11916 [sender.py:send_request():249] send_request: stop_status
+2022-03-20 11:23:17,628 DEBUG   HandlerThread:11916 [handler.py:handle_request():141] handle_request: partial_history
+2022-03-20 11:23:17,633 DEBUG   SenderThread:11916 [sender.py:send():235] send: history
+2022-03-20 11:23:17,633 DEBUG   SenderThread:11916 [sender.py:send():235] send: summary
+2022-03-20 11:23:17,633 INFO    SenderThread:11916 [sender.py:_save_file():947] saving file wandb-summary.json with policy end
+2022-03-20 11:23:18,561 INFO    Thread-11 :11916 [dir_watcher.py:_on_file_modified():230] file/dir modified: D:\GitHub_test\Pytorch-UNet\wandb\run-20220320_112118-38qxf5nu\files\wandb-summary.json
+2022-03-20 11:23:18,561 INFO    Thread-11 :11916 [dir_watcher.py:_on_file_modified():230] file/dir modified: D:\GitHub_test\Pytorch-UNet\wandb\run-20220320_112118-38qxf5nu\files\output.log
+2022-03-20 11:23:25,103 DEBUG   HandlerThread:11916 [handler.py:handle_request():141] handle_request: stop_status
+2022-03-20 11:23:25,103 DEBUG   SenderThread:11916 [sender.py:send_request():249] send_request: stop_status
+2022-03-20 11:23:25,433 DEBUG   HandlerThread:11916 [handler.py:handle_request():141] handle_request: partial_history
+2022-03-20 11:23:26,071 DEBUG   SenderThread:11916 [sender.py:send():235] send: history
+2022-03-20 11:23:26,071 DEBUG   SenderThread:11916 [sender.py:send():235] send: summary
+2022-03-20 11:23:26,071 INFO    SenderThread:11916 [sender.py:_save_file():947] saving file wandb-summary.json with policy end
+2022-03-20 11:23:26,629 INFO    Thread-11 :11916 [dir_watcher.py:_on_file_modified():230] file/dir modified: D:\GitHub_test\Pytorch-UNet\wandb\run-20220320_112118-38qxf5nu\files\wandb-summary.json
+2022-03-20 11:23:26,629 INFO    Thread-11 :11916 [dir_watcher.py:_on_file_modified():230] file/dir modified: D:\GitHub_test\Pytorch-UNet\wandb\run-20220320_112118-38qxf5nu\files\output.log
+2022-03-20 11:23:31,725 DEBUG   SenderThread:11916 [sender.py:send():235] send: stats
+2022-03-20 11:23:33,485 DEBUG   HandlerThread:11916 [handler.py:handle_request():141] handle_request: partial_history
+2022-03-20 11:23:33,491 DEBUG   SenderThread:11916 [sender.py:send():235] send: history
+2022-03-20 11:23:33,491 DEBUG   SenderThread:11916 [sender.py:send():235] send: summary
+2022-03-20 11:23:33,491 INFO    SenderThread:11916 [sender.py:_save_file():947] saving file wandb-summary.json with policy end
+2022-03-20 11:23:33,674 INFO    Thread-11 :11916 [dir_watcher.py:_on_file_modified():230] file/dir modified: D:\GitHub_test\Pytorch-UNet\wandb\run-20220320_112118-38qxf5nu\files\wandb-summary.json
+2022-03-20 11:23:34,689 INFO    Thread-11 :11916 [dir_watcher.py:_on_file_modified():230] file/dir modified: D:\GitHub_test\Pytorch-UNet\wandb\run-20220320_112118-38qxf5nu\files\output.log
+2022-03-20 11:23:41,084 DEBUG   HandlerThread:11916 [handler.py:handle_request():141] handle_request: stop_status
+2022-03-20 11:23:41,084 DEBUG   SenderThread:11916 [sender.py:send_request():249] send_request: stop_status
+2022-03-20 11:23:41,607 DEBUG   HandlerThread:11916 [handler.py:handle_request():141] handle_request: partial_history
+2022-03-20 11:23:41,656 DEBUG   SenderThread:11916 [sender.py:send():235] send: history
+2022-03-20 11:23:41,656 DEBUG   SenderThread:11916 [sender.py:send():235] send: summary
+2022-03-20 11:23:41,656 INFO    SenderThread:11916 [sender.py:_save_file():947] saving file wandb-summary.json with policy end
+2022-03-20 11:23:41,730 INFO    Thread-11 :11916 [dir_watcher.py:_on_file_modified():230] file/dir modified: D:\GitHub_test\Pytorch-UNet\wandb\run-20220320_112118-38qxf5nu\files\wandb-summary.json
+2022-03-20 11:23:42,743 INFO    Thread-11 :11916 [dir_watcher.py:_on_file_modified():230] file/dir modified: D:\GitHub_test\Pytorch-UNet\wandb\run-20220320_112118-38qxf5nu\files\output.log
+2022-03-20 11:23:49,605 DEBUG   HandlerThread:11916 [handler.py:handle_request():141] handle_request: partial_history
+2022-03-20 11:23:49,605 DEBUG   SenderThread:11916 [sender.py:send():235] send: history
+2022-03-20 11:23:49,605 DEBUG   SenderThread:11916 [sender.py:send():235] send: summary
+2022-03-20 11:23:49,605 INFO    SenderThread:11916 [sender.py:_save_file():947] saving file wandb-summary.json with policy end
+2022-03-20 11:23:49,785 INFO    Thread-11 :11916 [dir_watcher.py:_on_file_modified():230] file/dir modified: D:\GitHub_test\Pytorch-UNet\wandb\run-20220320_112118-38qxf5nu\files\wandb-summary.json
+2022-03-20 11:23:50,786 INFO    Thread-11 :11916 [dir_watcher.py:_on_file_modified():230] file/dir modified: D:\GitHub_test\Pytorch-UNet\wandb\run-20220320_112118-38qxf5nu\files\output.log
+2022-03-20 11:23:56,694 DEBUG   HandlerThread:11916 [handler.py:handle_request():141] handle_request: stop_status
+2022-03-20 11:23:56,729 DEBUG   SenderThread:11916 [sender.py:send_request():249] send_request: stop_status
+2022-03-20 11:24:01,169 DEBUG   HandlerThread:11916 [handler.py:handle_request():141] handle_request: partial_history
+2022-03-20 11:24:01,169 DEBUG   SenderThread:11916 [sender.py:send():235] send: history
+2022-03-20 11:24:01,169 DEBUG   SenderThread:11916 [sender.py:send():235] send: summary
+2022-03-20 11:24:01,169 INFO    SenderThread:11916 [sender.py:_save_file():947] saving file wandb-summary.json with policy end
+2022-03-20 11:24:01,882 INFO    Thread-11 :11916 [dir_watcher.py:_on_file_modified():230] file/dir modified: D:\GitHub_test\Pytorch-UNet\wandb\run-20220320_112118-38qxf5nu\files\wandb-summary.json
+2022-03-20 11:24:02,889 INFO    Thread-11 :11916 [dir_watcher.py:_on_file_modified():230] file/dir modified: D:\GitHub_test\Pytorch-UNet\wandb\run-20220320_112118-38qxf5nu\files\output.log
+2022-03-20 11:24:04,716 DEBUG   SenderThread:11916 [sender.py:send():235] send: stats
+2022-03-20 11:24:12,155 DEBUG   HandlerThread:11916 [handler.py:handle_request():141] handle_request: stop_status
+2022-03-20 11:24:12,155 DEBUG   SenderThread:11916 [sender.py:send_request():249] send_request: stop_status
+2022-03-20 11:24:21,564 DEBUG   HandlerThread:11916 [handler.py:handle_request():141] handle_request: partial_history
+2022-03-20 11:24:21,572 DEBUG   SenderThread:11916 [sender.py:send():235] send: history
+2022-03-20 11:24:21,573 DEBUG   SenderThread:11916 [sender.py:send():235] send: summary
+2022-03-20 11:24:21,574 INFO    SenderThread:11916 [sender.py:_save_file():947] saving file wandb-summary.json with policy end
+2022-03-20 11:24:22,059 INFO    Thread-11 :11916 [dir_watcher.py:_on_file_modified():230] file/dir modified: D:\GitHub_test\Pytorch-UNet\wandb\run-20220320_112118-38qxf5nu\files\wandb-summary.json
+2022-03-20 11:24:23,068 INFO    Thread-11 :11916 [dir_watcher.py:_on_file_modified():230] file/dir modified: D:\GitHub_test\Pytorch-UNet\wandb\run-20220320_112118-38qxf5nu\files\output.log
+2022-03-20 11:24:27,588 DEBUG   HandlerThread:11916 [handler.py:handle_request():141] handle_request: stop_status
+2022-03-20 11:24:27,588 DEBUG   SenderThread:11916 [sender.py:send_request():249] send_request: stop_status
+2022-03-20 11:24:37,545 DEBUG   SenderThread:11916 [sender.py:send():235] send: stats
+2022-03-20 11:24:41,683 DEBUG   HandlerThread:11916 [handler.py:handle_request():141] handle_request: partial_history
+2022-03-20 11:24:41,683 DEBUG   SenderThread:11916 [sender.py:send():235] send: history
+2022-03-20 11:24:41,688 DEBUG   SenderThread:11916 [sender.py:send():235] send: summary
+2022-03-20 11:24:41,688 INFO    SenderThread:11916 [sender.py:_save_file():947] saving file wandb-summary.json with policy end
+2022-03-20 11:24:42,220 INFO    Thread-11 :11916 [dir_watcher.py:_on_file_modified():230] file/dir modified: D:\GitHub_test\Pytorch-UNet\wandb\run-20220320_112118-38qxf5nu\files\wandb-summary.json
+2022-03-20 11:24:42,986 DEBUG   HandlerThread:11916 [handler.py:handle_request():141] handle_request: stop_status
+2022-03-20 11:24:42,986 DEBUG   SenderThread:11916 [sender.py:send_request():249] send_request: stop_status
+2022-03-20 11:24:43,233 INFO    Thread-11 :11916 [dir_watcher.py:_on_file_modified():230] file/dir modified: D:\GitHub_test\Pytorch-UNet\wandb\run-20220320_112118-38qxf5nu\files\output.log
+2022-03-20 11:24:58,397 DEBUG   HandlerThread:11916 [handler.py:handle_request():141] handle_request: stop_status
+2022-03-20 11:24:58,397 DEBUG   SenderThread:11916 [sender.py:send_request():249] send_request: stop_status
+2022-03-20 11:25:03,678 DEBUG   HandlerThread:11916 [handler.py:handle_request():141] handle_request: partial_history
+2022-03-20 11:25:03,678 DEBUG   SenderThread:11916 [sender.py:send():235] send: history
+2022-03-20 11:25:03,678 DEBUG   SenderThread:11916 [sender.py:send():235] send: summary
+2022-03-20 11:25:03,686 INFO    SenderThread:11916 [sender.py:_save_file():947] saving file wandb-summary.json with policy end
+2022-03-20 11:25:04,405 INFO    Thread-11 :11916 [dir_watcher.py:_on_file_modified():230] file/dir modified: D:\GitHub_test\Pytorch-UNet\wandb\run-20220320_112118-38qxf5nu\files\wandb-summary.json
+2022-03-20 11:25:05,413 INFO    Thread-11 :11916 [dir_watcher.py:_on_file_modified():230] file/dir modified: D:\GitHub_test\Pytorch-UNet\wandb\run-20220320_112118-38qxf5nu\files\output.log
+2022-03-20 11:25:10,233 DEBUG   SenderThread:11916 [sender.py:send():235] send: stats
+2022-03-20 11:25:13,853 DEBUG   HandlerThread:11916 [handler.py:handle_request():141] handle_request: stop_status
+2022-03-20 11:25:13,853 DEBUG   SenderThread:11916 [sender.py:send_request():249] send_request: stop_status
+2022-03-20 11:25:23,780 DEBUG   HandlerThread:11916 [handler.py:handle_request():141] handle_request: partial_history
+2022-03-20 11:25:23,780 DEBUG   SenderThread:11916 [sender.py:send():235] send: history
+2022-03-20 11:25:23,780 DEBUG   SenderThread:11916 [sender.py:send():235] send: summary
+2022-03-20 11:25:23,780 INFO    SenderThread:11916 [sender.py:_save_file():947] saving file wandb-summary.json with policy end
+2022-03-20 11:25:24,568 INFO    Thread-11 :11916 [dir_watcher.py:_on_file_modified():230] file/dir modified: D:\GitHub_test\Pytorch-UNet\wandb\run-20220320_112118-38qxf5nu\files\wandb-summary.json
+2022-03-20 11:25:25,572 INFO    Thread-11 :11916 [dir_watcher.py:_on_file_modified():230] file/dir modified: D:\GitHub_test\Pytorch-UNet\wandb\run-20220320_112118-38qxf5nu\files\output.log
+2022-03-20 11:25:29,323 DEBUG   HandlerThread:11916 [handler.py:handle_request():141] handle_request: stop_status
+2022-03-20 11:25:29,323 DEBUG   SenderThread:11916 [sender.py:send_request():249] send_request: stop_status
+2022-03-20 11:25:32,003 DEBUG   HandlerThread:11916 [handler.py:handle_request():141] handle_request: partial_history
+2022-03-20 11:25:32,003 DEBUG   SenderThread:11916 [sender.py:send():235] send: history
+2022-03-20 11:25:32,003 DEBUG   SenderThread:11916 [sender.py:send():235] send: summary
+2022-03-20 11:25:32,003 INFO    SenderThread:11916 [sender.py:_save_file():947] saving file wandb-summary.json with policy end
+2022-03-20 11:25:32,602 INFO    Thread-11 :11916 [dir_watcher.py:_on_file_modified():230] file/dir modified: D:\GitHub_test\Pytorch-UNet\wandb\run-20220320_112118-38qxf5nu\files\wandb-summary.json
+2022-03-20 11:25:33,615 INFO    Thread-11 :11916 [dir_watcher.py:_on_file_modified():230] file/dir modified: D:\GitHub_test\Pytorch-UNet\wandb\run-20220320_112118-38qxf5nu\files\output.log
+2022-03-20 11:25:43,007 DEBUG   SenderThread:11916 [sender.py:send():235] send: stats
+2022-03-20 11:25:43,323 DEBUG   HandlerThread:11916 [handler.py:handle_request():141] handle_request: partial_history
+2022-03-20 11:25:43,323 DEBUG   SenderThread:11916 [sender.py:send():235] send: history
+2022-03-20 11:25:43,323 DEBUG   SenderThread:11916 [sender.py:send():235] send: summary
+2022-03-20 11:25:43,323 INFO    SenderThread:11916 [sender.py:_save_file():947] saving file wandb-summary.json with policy end
+2022-03-20 11:25:43,677 INFO    Thread-11 :11916 [dir_watcher.py:_on_file_modified():230] file/dir modified: D:\GitHub_test\Pytorch-UNet\wandb\run-20220320_112118-38qxf5nu\files\wandb-summary.json
+2022-03-20 11:25:44,679 DEBUG   HandlerThread:11916 [handler.py:handle_request():141] handle_request: stop_status
+2022-03-20 11:25:44,679 DEBUG   SenderThread:11916 [sender.py:send_request():249] send_request: stop_status
+2022-03-20 11:25:45,690 INFO    Thread-11 :11916 [dir_watcher.py:_on_file_modified():230] file/dir modified: D:\GitHub_test\Pytorch-UNet\wandb\run-20220320_112118-38qxf5nu\files\output.log
+2022-03-20 11:26:00,073 DEBUG   HandlerThread:11916 [handler.py:handle_request():141] handle_request: stop_status
+2022-03-20 11:26:00,073 DEBUG   SenderThread:11916 [sender.py:send_request():249] send_request: stop_status
+2022-03-20 11:26:00,146 DEBUG   HandlerThread:11916 [handler.py:handle_request():141] handle_request: partial_history
+2022-03-20 11:26:00,554 DEBUG   SenderThread:11916 [sender.py:send():235] send: history
+2022-03-20 11:26:00,554 DEBUG   SenderThread:11916 [sender.py:send():235] send: summary
+2022-03-20 11:26:00,554 INFO    SenderThread:11916 [sender.py:_save_file():947] saving file wandb-summary.json with policy end
+2022-03-20 11:26:00,786 INFO    Thread-11 :11916 [dir_watcher.py:_on_file_modified():230] file/dir modified: D:\GitHub_test\Pytorch-UNet\wandb\run-20220320_112118-38qxf5nu\files\wandb-summary.json
+2022-03-20 11:26:01,795 INFO    Thread-11 :11916 [dir_watcher.py:_on_file_modified():230] file/dir modified: D:\GitHub_test\Pytorch-UNet\wandb\run-20220320_112118-38qxf5nu\files\output.log
+2022-03-20 11:26:15,568 DEBUG   HandlerThread:11916 [handler.py:handle_request():141] handle_request: stop_status
+2022-03-20 11:26:15,568 DEBUG   SenderThread:11916 [sender.py:send_request():249] send_request: stop_status
+2022-03-20 11:26:18,747 ERROR   SenderThread:11916 [retry.py:__call__():126] Retry attempt failed:
+Traceback (most recent call last):
+  File "D:\Python37\lib\site-packages\urllib3\connectionpool.py", line 700, in urlopen
+    self._prepare_proxy(conn)
+  File "D:\Python37\lib\site-packages\urllib3\connectionpool.py", line 994, in _prepare_proxy
+    conn.connect()
+  File "D:\Python37\lib\site-packages\urllib3\connection.py", line 364, in connect
+    self.sock = conn = self._connect_tls_proxy(hostname, conn)
+  File "D:\Python37\lib\site-packages\urllib3\connection.py", line 505, in _connect_tls_proxy
+    ssl_context=ssl_context,
+  File "D:\Python37\lib\site-packages\urllib3\util\ssl_.py", line 453, in ssl_wrap_socket
+    ssl_sock = _ssl_wrap_socket_impl(sock, context, tls_in_tls)
+  File "D:\Python37\lib\site-packages\urllib3\util\ssl_.py", line 495, in _ssl_wrap_socket_impl
+    return ssl_context.wrap_socket(sock)
+  File "D:\Python37\lib\ssl.py", line 423, in wrap_socket
+    session=session
+  File "D:\Python37\lib\ssl.py", line 870, in _create
+    self.do_handshake()
+  File "D:\Python37\lib\ssl.py", line 1139, in do_handshake
+    self._sslobj.do_handshake()
+OSError: [Errno 0] Error
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Python37\lib\site-packages\requests\adapters.py", line 450, in send
+    timeout=timeout
+  File "D:\Python37\lib\site-packages\urllib3\connectionpool.py", line 786, in urlopen
+    method, url, error=e, _pool=self, _stacktrace=sys.exc_info()[2]
+  File "D:\Python37\lib\site-packages\urllib3\util\retry.py", line 592, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='api.wandb.ai', port=443): Max retries exceeded with url: /graphql (Caused by ProxyError('Cannot connect to proxy.', OSError(0, 'Error')))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Python37\lib\site-packages\wandb\sdk\lib\retry.py", line 102, in __call__
+    result = self._call_fn(*args, **kwargs)
+  File "D:\Python37\lib\site-packages\wandb\sdk\internal\internal_api.py", line 140, in execute
+    return self.client.execute(*args, **kwargs)
+  File "D:\Python37\lib\site-packages\wandb\vendor\gql-0.2.0\wandb_gql\client.py", line 52, in execute
+    result = self._get_result(document, *args, **kwargs)
+  File "D:\Python37\lib\site-packages\wandb\vendor\gql-0.2.0\wandb_gql\client.py", line 60, in _get_result
+    return self.transport.execute(document, *args, **kwargs)
+  File "D:\Python37\lib\site-packages\wandb\vendor\gql-0.2.0\wandb_gql\transport\requests.py", line 38, in execute
+    request = requests.post(self.url, **post_args)
+  File "D:\Python37\lib\site-packages\requests\api.py", line 117, in post
+    return request('post', url, data=data, json=json, **kwargs)
+  File "D:\Python37\lib\site-packages\requests\api.py", line 61, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "D:\Python37\lib\site-packages\requests\sessions.py", line 529, in request
+    resp = self.send(prep, **send_kwargs)
+  File "D:\Python37\lib\site-packages\requests\sessions.py", line 645, in send
+    r = adapter.send(request, **kwargs)
+  File "D:\Python37\lib\site-packages\requests\adapters.py", line 513, in send
+    raise ProxyError(e, request=request)
+requests.exceptions.ProxyError: HTTPSConnectionPool(host='api.wandb.ai', port=443): Max retries exceeded with url: /graphql (Caused by ProxyError('Cannot connect to proxy.', OSError(0, 'Error')))
+2022-03-20 11:26:20,266 DEBUG   HandlerThread:11916 [handler.py:handle_request():141] handle_request: partial_history
+2022-03-20 11:26:20,924 INFO    Thread-11 :11916 [dir_watcher.py:_on_file_modified():230] file/dir modified: D:\GitHub_test\Pytorch-UNet\wandb\run-20220320_112118-38qxf5nu\files\output.log
+2022-03-20 11:26:22,927 INFO    Thread-11 :11916 [dir_watcher.py:_on_file_modified():230] file/dir modified: D:\GitHub_test\Pytorch-UNet\wandb\run-20220320_112118-38qxf5nu\files\output.log
+2022-03-20 11:26:28,956 INFO    Thread-11 :11916 [dir_watcher.py:_on_file_modified():230] file/dir modified: D:\GitHub_test\Pytorch-UNet\wandb\run-20220320_112118-38qxf5nu\files\output.log
+2022-03-20 11:26:32,977 INFO    Thread-11 :11916 [dir_watcher.py:_on_file_modified():230] file/dir modified: D:\GitHub_test\Pytorch-UNet\wandb\run-20220320_112118-38qxf5nu\files\output.log
+2022-03-20 11:26:34,987 INFO    Thread-11 :11916 [dir_watcher.py:_on_file_modified():230] file/dir modified: D:\GitHub_test\Pytorch-UNet\wandb\run-20220320_112118-38qxf5nu\files\output.log
+2022-03-20 11:26:35,585 DEBUG   HandlerThread:11916 [handler.py:handle_request():141] handle_request: stop_status
+2022-03-20 11:26:37,000 INFO    Thread-11 :11916 [dir_watcher.py:_on_file_modified():230] file/dir modified: D:\GitHub_test\Pytorch-UNet\wandb\run-20220320_112118-38qxf5nu\files\output.log
+2022-03-20 11:26:39,015 INFO    Thread-11 :11916 [dir_watcher.py:_on_file_modified():230] file/dir modified: D:\GitHub_test\Pytorch-UNet\wandb\run-20220320_112118-38qxf5nu\files\output.log
+2022-03-20 11:26:41,027 INFO    Thread-11 :11916 [dir_watcher.py:_on_file_modified():230] file/dir modified: D:\GitHub_test\Pytorch-UNet\wandb\run-20220320_112118-38qxf5nu\files\output.log
+2022-03-20 11:26:45,050 INFO    Thread-11 :11916 [dir_watcher.py:_on_file_modified():230] file/dir modified: D:\GitHub_test\Pytorch-UNet\wandb\run-20220320_112118-38qxf5nu\files\output.log
+2022-03-20 11:26:47,068 INFO    Thread-11 :11916 [dir_watcher.py:_on_file_modified():230] file/dir modified: D:\GitHub_test\Pytorch-UNet\wandb\run-20220320_112118-38qxf5nu\files\output.log
+2022-03-20 11:26:49,081 INFO    Thread-11 :11916 [dir_watcher.py:_on_file_modified():230] file/dir modified: D:\GitHub_test\Pytorch-UNet\wandb\run-20220320_112118-38qxf5nu\files\output.log
+2022-03-20 11:26:51,104 INFO    Thread-11 :11916 [dir_watcher.py:_on_file_modified():230] file/dir modified: D:\GitHub_test\Pytorch-UNet\wandb\run-20220320_112118-38qxf5nu\files\output.log
+2022-03-20 11:26:51,155 WARNING FileStreamThread:11916 [file_stream.py:request_with_retry():599] requests_with_retry encountered retryable exception: HTTPSConnectionPool(host='api.wandb.ai', port=443): Max retries exceeded with url: /files/anony-mouse-219877/U-Net/38qxf5nu/file_stream (Caused by ProxyError('Cannot connect to proxy.', OSError(0, 'Error'))). func: <bound method Session.post of <requests.sessions.Session object at 0x000001467063B8C8>>, args: ('https://api.wandb.ai/files/anony-mouse-219877/U-Net/38qxf5nu/file_stream',), kwargs: {'json': {'complete': False, 'failed': False, 'dropped': 0, 'uploaded': []}}
+2022-03-20 11:26:53,112 INFO    Thread-11 :11916 [dir_watcher.py:_on_file_modified():230] file/dir modified: D:\GitHub_test\Pytorch-UNet\wandb\run-20220320_112118-38qxf5nu\files\output.log
+2022-03-20 11:26:53,363 WARNING FileStreamThread:11916 [file_stream.py:request_with_retry():599] requests_with_retry encountered retryable exception: HTTPSConnectionPool(host='api.wandb.ai', port=443): Max retries exceeded with url: /files/anony-mouse-219877/U-Net/38qxf5nu/file_stream (Caused by ProxyError('Cannot connect to proxy.', OSError(0, 'Error'))). func: <bound method Session.post of <requests.sessions.Session object at 0x000001467063B8C8>>, args: ('https://api.wandb.ai/files/anony-mouse-219877/U-Net/38qxf5nu/file_stream',), kwargs: {'json': {'complete': False, 'failed': False, 'dropped': 0, 'uploaded': []}}
+2022-03-20 11:26:55,601 DEBUG   HandlerThread:11916 [handler.py:handle_request():141] handle_request: stop_status
+2022-03-20 11:26:57,140 INFO    Thread-11 :11916 [dir_watcher.py:_on_file_modified():230] file/dir modified: D:\GitHub_test\Pytorch-UNet\wandb\run-20220320_112118-38qxf5nu\files\output.log
+2022-03-20 11:26:58,255 WARNING FileStreamThread:11916 [file_stream.py:request_with_retry():599] requests_with_retry encountered retryable exception: HTTPSConnectionPool(host='api.wandb.ai', port=443): Max retries exceeded with url: /files/anony-mouse-219877/U-Net/38qxf5nu/file_stream (Caused by ProxyError('Cannot connect to proxy.', OSError(0, 'Error'))). func: <bound method Session.post of <requests.sessions.Session object at 0x000001467063B8C8>>, args: ('https://api.wandb.ai/files/anony-mouse-219877/U-Net/38qxf5nu/file_stream',), kwargs: {'json': {'complete': False, 'failed': False, 'dropped': 0, 'uploaded': []}}
+2022-03-20 11:26:59,160 INFO    Thread-11 :11916 [dir_watcher.py:_on_file_modified():230] file/dir modified: D:\GitHub_test\Pytorch-UNet\wandb\run-20220320_112118-38qxf5nu\files\output.log
+2022-03-20 11:27:01,168 INFO    Thread-11 :11916 [dir_watcher.py:_on_file_modified():230] file/dir modified: D:\GitHub_test\Pytorch-UNet\wandb\run-20220320_112118-38qxf5nu\files\output.log
+2022-03-20 11:27:03,192 INFO    Thread-11 :11916 [dir_watcher.py:_on_file_modified():230] file/dir modified: D:\GitHub_test\Pytorch-UNet\wandb\run-20220320_112118-38qxf5nu\files\output.log
+2022-03-20 11:27:05,217 INFO    Thread-11 :11916 [dir_watcher.py:_on_file_modified():230] file/dir modified: D:\GitHub_test\Pytorch-UNet\wandb\run-20220320_112118-38qxf5nu\files\output.log
+2022-03-20 11:27:07,052 WARNING FileStreamThread:11916 [file_stream.py:request_with_retry():599] requests_with_retry encountered retryable exception: HTTPSConnectionPool(host='api.wandb.ai', port=443): Max retries exceeded with url: /files/anony-mouse-219877/U-Net/38qxf5nu/file_stream (Caused by ProxyError('Cannot connect to proxy.', OSError(0, 'Error'))). func: <bound method Session.post of <requests.sessions.Session object at 0x000001467063B8C8>>, args: ('https://api.wandb.ai/files/anony-mouse-219877/U-Net/38qxf5nu/file_stream',), kwargs: {'json': {'complete': False, 'failed': False, 'dropped': 0, 'uploaded': []}}
+2022-03-20 11:27:07,240 INFO    Thread-11 :11916 [dir_watcher.py:_on_file_modified():230] file/dir modified: D:\GitHub_test\Pytorch-UNet\wandb\run-20220320_112118-38qxf5nu\files\output.log
+2022-03-20 11:27:11,263 INFO    Thread-11 :11916 [dir_watcher.py:_on_file_modified():230] file/dir modified: D:\GitHub_test\Pytorch-UNet\wandb\run-20220320_112118-38qxf5nu\files\output.log
+2022-03-20 11:27:13,277 INFO    Thread-11 :11916 [dir_watcher.py:_on_file_modified():230] file/dir modified: D:\GitHub_test\Pytorch-UNet\wandb\run-20220320_112118-38qxf5nu\files\output.log
+2022-03-20 11:27:15,289 INFO    Thread-11 :11916 [dir_watcher.py:_on_file_modified():230] file/dir modified: D:\GitHub_test\Pytorch-UNet\wandb\run-20220320_112118-38qxf5nu\files\output.log
+2022-03-20 11:27:15,616 DEBUG   HandlerThread:11916 [handler.py:handle_request():141] handle_request: stop_status
+2022-03-20 11:27:16,716 DEBUG   HandlerThread:11916 [handler.py:handle_request():141] handle_request: partial_history
+2022-03-20 11:27:17,299 INFO    Thread-11 :11916 [dir_watcher.py:_on_file_modified():230] file/dir modified: D:\GitHub_test\Pytorch-UNet\wandb\run-20220320_112118-38qxf5nu\files\output.log
+2022-03-20 11:27:17,299 INFO    Thread-11 :11916 [dir_watcher.py:_on_file_created():217] file/dir created: D:\GitHub_test\Pytorch-UNet\wandb\run-20220320_112118-38qxf5nu\files\media\images\true_18_949777c907810c7a04a0.png
+2022-03-20 11:27:17,300 INFO    Thread-11 :11916 [dir_watcher.py:_on_file_created():217] file/dir created: D:\GitHub_test\Pytorch-UNet\wandb\run-20220320_112118-38qxf5nu\files\media\images\images_18_54aaee18931bb5ee2579.png
+2022-03-20 11:27:17,301 INFO    Thread-11 :11916 [dir_watcher.py:_on_file_created():217] file/dir created: D:\GitHub_test\Pytorch-UNet\wandb\run-20220320_112118-38qxf5nu\files\media\images\pred_18_f13b736c635bfb3eaad8.png
+2022-03-20 11:27:17,301 INFO    Thread-11 :11916 [dir_watcher.py:_on_file_created():217] file/dir created: D:\GitHub_test\Pytorch-UNet\wandb\run-20220320_112118-38qxf5nu\files\media
+2022-03-20 11:27:17,301 INFO    Thread-11 :11916 [dir_watcher.py:_on_file_created():217] file/dir created: D:\GitHub_test\Pytorch-UNet\wandb\run-20220320_112118-38qxf5nu\files\media\images
+2022-03-20 11:27:24,274 WARNING FileStreamThread:11916 [file_stream.py:request_with_retry():599] requests_with_retry encountered retryable exception: HTTPSConnectionPool(host='api.wandb.ai', port=443): Max retries exceeded with url: /files/anony-mouse-219877/U-Net/38qxf5nu/file_stream (Caused by ProxyError('Cannot connect to proxy.', OSError(0, 'Error'))). func: <bound method Session.post of <requests.sessions.Session object at 0x000001467063B8C8>>, args: ('https://api.wandb.ai/files/anony-mouse-219877/U-Net/38qxf5nu/file_stream',), kwargs: {'json': {'complete': False, 'failed': False, 'dropped': 0, 'uploaded': []}}
+2022-03-20 11:27:35,633 DEBUG   HandlerThread:11916 [handler.py:handle_request():141] handle_request: stop_status
+2022-03-20 11:27:38,061 DEBUG   HandlerThread:11916 [handler.py:handle_request():141] handle_request: partial_history
+2022-03-20 11:27:39,468 INFO    Thread-11 :11916 [dir_watcher.py:_on_file_modified():230] file/dir modified: D:\GitHub_test\Pytorch-UNet\wandb\run-20220320_112118-38qxf5nu\files\output.log
+2022-03-20 11:27:55,662 DEBUG   HandlerThread:11916 [handler.py:handle_request():141] handle_request: stop_status
+2022-03-20 11:27:59,399 DEBUG   HandlerThread:11916 [handler.py:handle_request():141] handle_request: partial_history
+2022-03-20 11:28:01,663 INFO    Thread-11 :11916 [dir_watcher.py:_on_file_modified():230] file/dir modified: D:\GitHub_test\Pytorch-UNet\wandb\run-20220320_112118-38qxf5nu\files\output.log
+2022-03-20 11:28:09,035 DEBUG   HandlerThread:11916 [handler.py:handle_request():141] handle_request: partial_history
+2022-03-20 11:28:09,749 INFO    Thread-11 :11916 [dir_watcher.py:_on_file_modified():230] file/dir modified: D:\GitHub_test\Pytorch-UNet\wandb\run-20220320_112118-38qxf5nu\files\output.log
+2022-03-20 11:28:15,681 DEBUG   HandlerThread:11916 [handler.py:handle_request():141] handle_request: stop_status
+2022-03-20 11:28:20,300 DEBUG   HandlerThread:11916 [handler.py:handle_request():141] handle_request: partial_history
+2022-03-20 11:28:21,860 INFO    Thread-11 :11916 [dir_watcher.py:_on_file_modified():230] file/dir modified: D:\GitHub_test\Pytorch-UNet\wandb\run-20220320_112118-38qxf5nu\files\output.log
+2022-03-20 11:28:29,620 DEBUG   HandlerThread:11916 [handler.py:handle_request():141] handle_request: partial_history
+2022-03-20 11:28:31,932 INFO    Thread-11 :11916 [dir_watcher.py:_on_file_modified():230] file/dir modified: D:\GitHub_test\Pytorch-UNet\wandb\run-20220320_112118-38qxf5nu\files\output.log
+2022-03-20 11:28:32,248 DEBUG   SenderThread:11916 [sender.py:send():235] send: stats
+2022-03-20 11:28:32,248 DEBUG   SenderThread:11916 [sender.py:send():235] send: history
+2022-03-20 11:28:32,248 DEBUG   SenderThread:11916 [sender.py:send():235] send: summary
+2022-03-20 11:28:32,260 INFO    SenderThread:11916 [sender.py:_save_file():947] saving file wandb-summary.json with policy end
+2022-03-20 11:28:32,261 DEBUG   SenderThread:11916 [sender.py:send_request():249] send_request: stop_status
+2022-03-20 11:28:32,590 DEBUG   SenderThread:11916 [sender.py:send():235] send: stats
+2022-03-20 11:28:32,591 DEBUG   SenderThread:11916 [sender.py:send_request():249] send_request: stop_status
+2022-03-20 11:28:32,938 INFO    Thread-11 :11916 [dir_watcher.py:_on_file_modified():230] file/dir modified: D:\GitHub_test\Pytorch-UNet\wandb\run-20220320_112118-38qxf5nu\files\wandb-summary.json
+2022-03-20 11:28:32,975 DEBUG   SenderThread:11916 [sender.py:send_request():249] send_request: stop_status
+2022-03-20 11:28:33,382 DEBUG   SenderThread:11916 [sender.py:send():235] send: files
+2022-03-20 11:28:33,382 INFO    SenderThread:11916 [sender.py:_save_file():947] saving file media\images\images_18_54aaee18931bb5ee2579.png with policy now
+2022-03-20 11:28:33,382 DEBUG   SenderThread:11916 [sender.py:send():235] send: files
+2022-03-20 11:28:33,382 INFO    SenderThread:11916 [sender.py:_save_file():947] saving file media\images\true_18_949777c907810c7a04a0.png with policy now
+2022-03-20 11:28:33,386 DEBUG   SenderThread:11916 [sender.py:send():235] send: files
+2022-03-20 11:28:33,386 INFO    SenderThread:11916 [sender.py:_save_file():947] saving file media\images\pred_18_f13b736c635bfb3eaad8.png with policy now
+2022-03-20 11:28:33,386 DEBUG   SenderThread:11916 [sender.py:send():235] send: history
+2022-03-20 11:28:33,402 DEBUG   SenderThread:11916 [sender.py:send():235] send: summary
+2022-03-20 11:28:33,417 INFO    SenderThread:11916 [sender.py:_save_file():947] saving file wandb-summary.json with policy end
+2022-03-20 11:28:33,417 DEBUG   SenderThread:11916 [sender.py:send():235] send: stats
+2022-03-20 11:28:33,417 DEBUG   SenderThread:11916 [sender.py:send_request():249] send_request: stop_status
+2022-03-20 11:28:33,944 INFO    Thread-11 :11916 [dir_watcher.py:_on_file_modified():230] file/dir modified: D:\GitHub_test\Pytorch-UNet\wandb\run-20220320_112118-38qxf5nu\files\wandb-summary.json
+2022-03-20 11:28:34,236 DEBUG   SenderThread:11916 [sender.py:send():235] send: history
+2022-03-20 11:28:34,236 DEBUG   SenderThread:11916 [sender.py:send():235] send: summary
+2022-03-20 11:28:34,248 INFO    SenderThread:11916 [sender.py:_save_file():947] saving file wandb-summary.json with policy end
+2022-03-20 11:28:34,248 DEBUG   SenderThread:11916 [sender.py:send():235] send: stats
+2022-03-20 11:28:34,248 DEBUG   SenderThread:11916 [sender.py:send_request():249] send_request: stop_status
+2022-03-20 11:28:34,422 INFO    Thread-19 :11916 [upload_job.py:push():137] Uploaded file C:\Users\Johnson\AppData\Local\Temp\tmpgsa3gthbwandb\2q10mnfs-media/images/true_18_949777c907810c7a04a0.png
+2022-03-20 11:28:34,596 INFO    Thread-18 :11916 [upload_job.py:push():137] Uploaded file C:\Users\Johnson\AppData\Local\Temp\tmpgsa3gthbwandb\zk0j863d-media/images/images_18_54aaee18931bb5ee2579.png
+2022-03-20 11:28:34,632 DEBUG   SenderThread:11916 [sender.py:send():235] send: history
+2022-03-20 11:28:34,648 DEBUG   SenderThread:11916 [sender.py:send():235] send: summary
+2022-03-20 11:28:34,648 INFO    SenderThread:11916 [sender.py:_save_file():947] saving file wandb-summary.json with policy end
+2022-03-20 11:28:34,661 DEBUG   SenderThread:11916 [sender.py:send():235] send: history
+2022-03-20 11:28:34,661 DEBUG   SenderThread:11916 [sender.py:send():235] send: summary
+2022-03-20 11:28:34,662 INFO    SenderThread:11916 [sender.py:_save_file():947] saving file wandb-summary.json with policy end
+2022-03-20 11:28:34,662 DEBUG   SenderThread:11916 [sender.py:send_request():249] send_request: stop_status
+2022-03-20 11:28:34,929 INFO    Thread-20 :11916 [upload_job.py:push():137] Uploaded file C:\Users\Johnson\AppData\Local\Temp\tmpgsa3gthbwandb\cy02kvav-media/images/pred_18_f13b736c635bfb3eaad8.png
+2022-03-20 11:28:34,945 INFO    Thread-11 :11916 [dir_watcher.py:_on_file_modified():230] file/dir modified: D:\GitHub_test\Pytorch-UNet\wandb\run-20220320_112118-38qxf5nu\files\wandb-summary.json
+2022-03-20 11:28:35,106 DEBUG   SenderThread:11916 [sender.py:send():235] send: history
+2022-03-20 11:28:35,106 DEBUG   SenderThread:11916 [sender.py:send():235] send: summary
+2022-03-20 11:28:35,125 INFO    SenderThread:11916 [sender.py:_save_file():947] saving file wandb-summary.json with policy end
+2022-03-20 11:28:35,125 DEBUG   SenderThread:11916 [sender.py:send():235] send: stats
+2022-03-20 11:28:35,125 DEBUG   SenderThread:11916 [sender.py:send():235] send: history
+2022-03-20 11:28:35,125 DEBUG   SenderThread:11916 [sender.py:send():235] send: summary
+2022-03-20 11:28:35,140 INFO    SenderThread:11916 [sender.py:_save_file():947] saving file wandb-summary.json with policy end
+2022-03-20 11:28:35,701 DEBUG   HandlerThread:11916 [handler.py:handle_request():141] handle_request: stop_status
+2022-03-20 11:28:35,705 DEBUG   SenderThread:11916 [sender.py:send_request():249] send_request: stop_status
+2022-03-20 11:28:35,957 INFO    Thread-11 :11916 [dir_watcher.py:_on_file_modified():230] file/dir modified: D:\GitHub_test\Pytorch-UNet\wandb\run-20220320_112118-38qxf5nu\files\wandb-summary.json
+2022-03-20 11:28:47,427 DEBUG   HandlerThread:11916 [handler.py:handle_request():141] handle_request: partial_history
+2022-03-20 11:28:47,434 DEBUG   SenderThread:11916 [sender.py:send():235] send: history
+2022-03-20 11:28:47,441 DEBUG   SenderThread:11916 [sender.py:send():235] send: summary
+2022-03-20 11:28:47,446 INFO    SenderThread:11916 [sender.py:_save_file():947] saving file wandb-summary.json with policy end
+2022-03-20 11:28:48,089 INFO    Thread-11 :11916 [dir_watcher.py:_on_file_modified():230] file/dir modified: D:\GitHub_test\Pytorch-UNet\wandb\run-20220320_112118-38qxf5nu\files\wandb-summary.json
+2022-03-20 11:28:48,089 INFO    Thread-11 :11916 [dir_watcher.py:_on_file_modified():230] file/dir modified: D:\GitHub_test\Pytorch-UNet\wandb\run-20220320_112118-38qxf5nu\files\output.log
+2022-03-20 11:28:51,043 DEBUG   HandlerThread:11916 [handler.py:handle_request():141] handle_request: stop_status
+2022-03-20 11:28:51,043 DEBUG   SenderThread:11916 [sender.py:send_request():249] send_request: stop_status
+2022-03-20 11:29:01,256 DEBUG   SenderThread:11916 [sender.py:send():235] send: stats
+2022-03-20 11:29:06,512 DEBUG   HandlerThread:11916 [handler.py:handle_request():141] handle_request: stop_status
+2022-03-20 11:29:06,512 DEBUG   SenderThread:11916 [sender.py:send_request():249] send_request: stop_status
+2022-03-20 11:29:08,521 DEBUG   HandlerThread:11916 [handler.py:handle_request():141] handle_request: partial_history
+2022-03-20 11:29:08,528 DEBUG   SenderThread:11916 [sender.py:send():235] send: history
+2022-03-20 11:29:08,533 DEBUG   SenderThread:11916 [sender.py:send():235] send: summary
+2022-03-20 11:29:08,543 INFO    SenderThread:11916 [sender.py:_save_file():947] saving file wandb-summary.json with policy end
+2022-03-20 11:29:09,254 INFO    Thread-11 :11916 [dir_watcher.py:_on_file_modified():230] file/dir modified: D:\GitHub_test\Pytorch-UNet\wandb\run-20220320_112118-38qxf5nu\files\wandb-summary.json
+2022-03-20 11:29:10,263 INFO    Thread-11 :11916 [dir_watcher.py:_on_file_modified():230] file/dir modified: D:\GitHub_test\Pytorch-UNet\wandb\run-20220320_112118-38qxf5nu\files\output.log
+2022-03-20 11:29:21,977 DEBUG   HandlerThread:11916 [handler.py:handle_request():141] handle_request: stop_status
+2022-03-20 11:29:21,978 DEBUG   SenderThread:11916 [sender.py:send_request():249] send_request: stop_status
+2022-03-20 11:29:22,656 DEBUG   HandlerThread:11916 [handler.py:handle_request():141] handle_request: partial_history
+2022-03-20 11:29:22,664 DEBUG   SenderThread:11916 [sender.py:send():235] send: history
+2022-03-20 11:29:22,688 DEBUG   SenderThread:11916 [sender.py:send():235] send: summary
+2022-03-20 11:29:22,713 INFO    SenderThread:11916 [sender.py:_save_file():947] saving file wandb-summary.json with policy end
+2022-03-20 11:29:23,361 INFO    Thread-11 :11916 [dir_watcher.py:_on_file_modified():230] file/dir modified: D:\GitHub_test\Pytorch-UNet\wandb\run-20220320_112118-38qxf5nu\files\wandb-summary.json
+2022-03-20 11:29:24,366 INFO    Thread-11 :11916 [dir_watcher.py:_on_file_modified():230] file/dir modified: D:\GitHub_test\Pytorch-UNet\wandb\run-20220320_112118-38qxf5nu\files\output.log
+2022-03-20 11:29:33,770 DEBUG   SenderThread:11916 [sender.py:send():235] send: stats
+2022-03-20 11:29:37,344 DEBUG   HandlerThread:11916 [handler.py:handle_request():141] handle_request: stop_status
+2022-03-20 11:29:37,344 DEBUG   SenderThread:11916 [sender.py:send_request():249] send_request: stop_status
+2022-03-20 11:29:43,216 DEBUG   HandlerThread:11916 [handler.py:handle_request():141] handle_request: partial_history
+2022-03-20 11:29:43,232 DEBUG   SenderThread:11916 [sender.py:send():235] send: history
+2022-03-20 11:29:43,239 DEBUG   SenderThread:11916 [sender.py:send():235] send: summary
+2022-03-20 11:29:43,288 INFO    SenderThread:11916 [sender.py:_save_file():947] saving file wandb-summary.json with policy end
+2022-03-20 11:29:43,546 INFO    Thread-11 :11916 [dir_watcher.py:_on_file_modified():230] file/dir modified: D:\GitHub_test\Pytorch-UNet\wandb\run-20220320_112118-38qxf5nu\files\wandb-summary.json
+2022-03-20 11:29:44,549 INFO    Thread-11 :11916 [dir_watcher.py:_on_file_modified():230] file/dir modified: D:\GitHub_test\Pytorch-UNet\wandb\run-20220320_112118-38qxf5nu\files\output.log
+2022-03-20 11:29:52,777 DEBUG   HandlerThread:11916 [handler.py:handle_request():141] handle_request: stop_status
+2022-03-20 11:29:52,778 DEBUG   SenderThread:11916 [sender.py:send_request():249] send_request: stop_status
+2022-03-20 11:30:03,853 DEBUG   HandlerThread:11916 [handler.py:handle_request():141] handle_request: partial_history
+2022-03-20 11:30:03,869 DEBUG   SenderThread:11916 [sender.py:send():235] send: history
+2022-03-20 11:30:03,887 DEBUG   SenderThread:11916 [sender.py:send():235] send: summary
+2022-03-20 11:30:03,935 INFO    SenderThread:11916 [sender.py:_save_file():947] saving file wandb-summary.json with policy end
+2022-03-20 11:30:04,730 INFO    Thread-11 :11916 [dir_watcher.py:_on_file_modified():230] file/dir modified: D:\GitHub_test\Pytorch-UNet\wandb\run-20220320_112118-38qxf5nu\files\wandb-summary.json
+2022-03-20 11:30:06,770 DEBUG   SenderThread:11916 [sender.py:send():235] send: stats
+2022-03-20 11:30:06,770 INFO    Thread-11 :11916 [dir_watcher.py:_on_file_modified():230] file/dir modified: D:\GitHub_test\Pytorch-UNet\wandb\run-20220320_112118-38qxf5nu\files\output.log
+2022-03-20 11:30:08,575 DEBUG   HandlerThread:11916 [handler.py:handle_request():141] handle_request: stop_status
+2022-03-20 11:30:08,575 DEBUG   SenderThread:11916 [sender.py:send_request():249] send_request: stop_status
+2022-03-20 11:30:23,958 DEBUG   HandlerThread:11916 [handler.py:handle_request():141] handle_request: stop_status
+2022-03-20 11:30:23,958 DEBUG   SenderThread:11916 [sender.py:send_request():249] send_request: stop_status
+2022-03-20 11:30:24,966 DEBUG   HandlerThread:11916 [handler.py:handle_request():141] handle_request: partial_history
+2022-03-20 11:30:24,987 DEBUG   SenderThread:11916 [sender.py:send():235] send: history
+2022-03-20 11:30:24,997 DEBUG   SenderThread:11916 [sender.py:send():235] send: summary
+2022-03-20 11:30:25,037 INFO    SenderThread:11916 [sender.py:_save_file():947] saving file wandb-summary.json with policy end
+2022-03-20 11:30:25,958 INFO    Thread-11 :11916 [dir_watcher.py:_on_file_modified():230] file/dir modified: D:\GitHub_test\Pytorch-UNet\wandb\run-20220320_112118-38qxf5nu\files\wandb-summary.json
+2022-03-20 11:30:26,962 INFO    Thread-11 :11916 [dir_watcher.py:_on_file_modified():230] file/dir modified: D:\GitHub_test\Pytorch-UNet\wandb\run-20220320_112118-38qxf5nu\files\output.log
+2022-03-20 11:30:39,361 DEBUG   HandlerThread:11916 [handler.py:handle_request():141] handle_request: stop_status
+2022-03-20 11:30:39,362 DEBUG   SenderThread:11916 [sender.py:send_request():249] send_request: stop_status
+2022-03-20 11:30:39,840 DEBUG   SenderThread:11916 [sender.py:send():235] send: stats
+2022-03-20 11:30:46,302 DEBUG   HandlerThread:11916 [handler.py:handle_request():141] handle_request: partial_history
+2022-03-20 11:30:46,318 DEBUG   SenderThread:11916 [sender.py:send():235] send: history
+2022-03-20 11:30:46,318 DEBUG   SenderThread:11916 [sender.py:send():235] send: summary
+2022-03-20 11:30:46,318 INFO    SenderThread:11916 [sender.py:_save_file():947] saving file wandb-summary.json with policy end
+2022-03-20 11:30:47,138 INFO    Thread-11 :11916 [dir_watcher.py:_on_file_modified():230] file/dir modified: D:\GitHub_test\Pytorch-UNet\wandb\run-20220320_112118-38qxf5nu\files\wandb-summary.json
+2022-03-20 11:30:49,160 INFO    Thread-11 :11916 [dir_watcher.py:_on_file_modified():230] file/dir modified: D:\GitHub_test\Pytorch-UNet\wandb\run-20220320_112118-38qxf5nu\files\output.log
+2022-03-20 11:30:54,750 DEBUG   HandlerThread:11916 [handler.py:handle_request():141] handle_request: stop_status
+2022-03-20 11:30:54,750 DEBUG   SenderThread:11916 [sender.py:send_request():249] send_request: stop_status
+2022-03-20 11:30:57,566 DEBUG   HandlerThread:11916 [handler.py:handle_request():141] handle_request: partial_history
+2022-03-20 11:30:57,574 DEBUG   SenderThread:11916 [sender.py:send():235] send: history
+2022-03-20 11:30:57,596 DEBUG   SenderThread:11916 [sender.py:send():235] send: summary
+2022-03-20 11:30:57,651 INFO    SenderThread:11916 [sender.py:_save_file():947] saving file wandb-summary.json with policy end
+2022-03-20 11:30:58,240 INFO    Thread-11 :11916 [dir_watcher.py:_on_file_modified():230] file/dir modified: D:\GitHub_test\Pytorch-UNet\wandb\run-20220320_112118-38qxf5nu\files\wandb-summary.json
+2022-03-20 11:30:58,240 INFO    Thread-11 :11916 [dir_watcher.py:_on_file_modified():230] file/dir modified: D:\GitHub_test\Pytorch-UNet\wandb\run-20220320_112118-38qxf5nu\files\output.log
+2022-03-20 11:31:10,115 DEBUG   HandlerThread:11916 [handler.py:handle_request():141] handle_request: stop_status
+2022-03-20 11:31:10,115 DEBUG   SenderThread:11916 [sender.py:send_request():249] send_request: stop_status
+2022-03-20 11:31:13,119 DEBUG   SenderThread:11916 [sender.py:send():235] send: stats
+2022-03-20 11:31:20,241 DEBUG   HandlerThread:11916 [handler.py:handle_request():141] handle_request: partial_history
+2022-03-20 11:31:20,257 DEBUG   SenderThread:11916 [sender.py:send():235] send: history
+2022-03-20 11:31:20,274 DEBUG   SenderThread:11916 [sender.py:send():235] send: summary
+2022-03-20 11:31:20,337 INFO    SenderThread:11916 [sender.py:_save_file():947] saving file wandb-summary.json with policy end
+2022-03-20 11:31:20,417 INFO    Thread-11 :11916 [dir_watcher.py:_on_file_modified():230] file/dir modified: D:\GitHub_test\Pytorch-UNet\wandb\run-20220320_112118-38qxf5nu\files\wandb-summary.json
+2022-03-20 11:31:20,417 INFO    Thread-11 :11916 [dir_watcher.py:_on_file_modified():230] file/dir modified: D:\GitHub_test\Pytorch-UNet\wandb\run-20220320_112118-38qxf5nu\files\output.log
+2022-03-20 11:31:25,531 DEBUG   HandlerThread:11916 [handler.py:handle_request():141] handle_request: stop_status
+2022-03-20 11:31:25,531 DEBUG   SenderThread:11916 [sender.py:send_request():249] send_request: stop_status
+2022-03-20 11:31:40,921 DEBUG   HandlerThread:11916 [handler.py:handle_request():141] handle_request: stop_status
+2022-03-20 11:31:40,921 DEBUG   SenderThread:11916 [sender.py:send_request():249] send_request: stop_status
+2022-03-20 11:31:41,808 DEBUG   HandlerThread:11916 [handler.py:handle_request():141] handle_request: partial_history
+2022-03-20 11:31:41,824 DEBUG   SenderThread:11916 [sender.py:send():235] send: history
+2022-03-20 11:31:41,829 DEBUG   SenderThread:11916 [sender.py:send():235] send: summary
+2022-03-20 11:31:41,841 INFO    SenderThread:11916 [sender.py:_save_file():947] saving file wandb-summary.json with policy end
+2022-03-20 11:31:42,636 INFO    Thread-11 :11916 [dir_watcher.py:_on_file_modified():230] file/dir modified: D:\GitHub_test\Pytorch-UNet\wandb\run-20220320_112118-38qxf5nu\files\wandb-summary.json
+2022-03-20 11:31:42,636 INFO    Thread-11 :11916 [dir_watcher.py:_on_file_modified():230] file/dir modified: D:\GitHub_test\Pytorch-UNet\wandb\run-20220320_112118-38qxf5nu\files\output.log
+2022-03-20 11:31:46,429 DEBUG   SenderThread:11916 [sender.py:send():235] send: stats
+2022-03-20 11:31:50,349 DEBUG   HandlerThread:11916 [handler.py:handle_request():141] handle_request: partial_history
+2022-03-20 11:31:50,367 DEBUG   SenderThread:11916 [sender.py:send():235] send: history
+2022-03-20 11:31:50,367 DEBUG   SenderThread:11916 [sender.py:send():235] send: summary
+2022-03-20 11:31:50,399 INFO    SenderThread:11916 [sender.py:_save_file():947] saving file wandb-summary.json with policy end
+2022-03-20 11:31:50,712 INFO    Thread-11 :11916 [dir_watcher.py:_on_file_modified():230] file/dir modified: D:\GitHub_test\Pytorch-UNet\wandb\run-20220320_112118-38qxf5nu\files\wandb-summary.json
+2022-03-20 11:31:52,742 INFO    Thread-11 :11916 [dir_watcher.py:_on_file_modified():230] file/dir modified: D:\GitHub_test\Pytorch-UNet\wandb\run-20220320_112118-38qxf5nu\files\output.log
+2022-03-20 11:31:56,412 DEBUG   HandlerThread:11916 [handler.py:handle_request():141] handle_request: stop_status
+2022-03-20 11:31:56,412 DEBUG   SenderThread:11916 [sender.py:send_request():249] send_request: stop_status
+2022-03-20 11:32:02,056 DEBUG   HandlerThread:11916 [handler.py:handle_request():141] handle_request: partial_history
+2022-03-20 11:32:02,072 DEBUG   SenderThread:11916 [sender.py:send():235] send: history
+2022-03-20 11:32:02,072 DEBUG   SenderThread:11916 [sender.py:send():235] send: summary
+2022-03-20 11:32:02,104 INFO    SenderThread:11916 [sender.py:_save_file():947] saving file wandb-summary.json with policy end
+2022-03-20 11:32:02,829 INFO    Thread-11 :11916 [dir_watcher.py:_on_file_modified():230] file/dir modified: D:\GitHub_test\Pytorch-UNet\wandb\run-20220320_112118-38qxf5nu\files\wandb-summary.json
+2022-03-20 11:32:02,829 INFO    Thread-11 :11916 [dir_watcher.py:_on_file_modified():230] file/dir modified: D:\GitHub_test\Pytorch-UNet\wandb\run-20220320_112118-38qxf5nu\files\output.log
+2022-03-20 11:32:11,967 DEBUG   HandlerThread:11916 [handler.py:handle_request():141] handle_request: stop_status
+2022-03-20 11:32:11,968 DEBUG   SenderThread:11916 [sender.py:send_request():249] send_request: stop_status
+2022-03-20 11:32:19,390 DEBUG   SenderThread:11916 [sender.py:send():235] send: stats
+2022-03-20 11:32:20,912 DEBUG   HandlerThread:11916 [handler.py:handle_request():141] handle_request: partial_history
+2022-03-20 11:32:20,927 DEBUG   SenderThread:11916 [sender.py:send():235] send: history
+2022-03-20 11:32:20,943 DEBUG   SenderThread:11916 [sender.py:send():235] send: summary
+2022-03-20 11:32:20,990 INFO    SenderThread:11916 [sender.py:_save_file():947] saving file wandb-summary.json with policy end
+2022-03-20 11:32:21,006 INFO    Thread-11 :11916 [dir_watcher.py:_on_file_modified():230] file/dir modified: D:\GitHub_test\Pytorch-UNet\wandb\run-20220320_112118-38qxf5nu\files\wandb-summary.json
+2022-03-20 11:32:23,015 INFO    Thread-11 :11916 [dir_watcher.py:_on_file_modified():230] file/dir modified: D:\GitHub_test\Pytorch-UNet\wandb\run-20220320_112118-38qxf5nu\files\output.log
+2022-03-20 11:32:25,045 INFO    Thread-11 :11916 [dir_watcher.py:_on_file_modified():230] file/dir modified: D:\GitHub_test\Pytorch-UNet\wandb\run-20220320_112118-38qxf5nu\files\output.log
+2022-03-20 11:32:27,776 DEBUG   HandlerThread:11916 [handler.py:handle_request():141] handle_request: stop_status
+2022-03-20 11:32:27,776 DEBUG   SenderThread:11916 [sender.py:send_request():249] send_request: stop_status
+2022-03-20 11:32:31,087 INFO    Thread-11 :11916 [dir_watcher.py:_on_file_modified():230] file/dir modified: D:\GitHub_test\Pytorch-UNet\wandb\run-20220320_112118-38qxf5nu\files\output.log
+2022-03-20 11:32:33,107 INFO    Thread-11 :11916 [dir_watcher.py:_on_file_modified():230] file/dir modified: D:\GitHub_test\Pytorch-UNet\wandb\run-20220320_112118-38qxf5nu\files\output.log
+2022-03-20 11:32:35,125 INFO    Thread-11 :11916 [dir_watcher.py:_on_file_modified():230] file/dir modified: D:\GitHub_test\Pytorch-UNet\wandb\run-20220320_112118-38qxf5nu\files\output.log
+2022-03-20 11:32:39,163 INFO    Thread-11 :11916 [dir_watcher.py:_on_file_modified():230] file/dir modified: D:\GitHub_test\Pytorch-UNet\wandb\run-20220320_112118-38qxf5nu\files\output.log
+2022-03-20 11:32:41,171 INFO    Thread-11 :11916 [dir_watcher.py:_on_file_modified():230] file/dir modified: D:\GitHub_test\Pytorch-UNet\wandb\run-20220320_112118-38qxf5nu\files\output.log
+2022-03-20 11:32:43,174 INFO    Thread-11 :11916 [dir_watcher.py:_on_file_modified():230] file/dir modified: D:\GitHub_test\Pytorch-UNet\wandb\run-20220320_112118-38qxf5nu\files\output.log
+2022-03-20 11:32:43,247 DEBUG   HandlerThread:11916 [handler.py:handle_request():141] handle_request: stop_status
+2022-03-20 11:32:43,248 DEBUG   SenderThread:11916 [sender.py:send_request():249] send_request: stop_status
+2022-03-20 11:32:45,204 INFO    Thread-11 :11916 [dir_watcher.py:_on_file_modified():230] file/dir modified: D:\GitHub_test\Pytorch-UNet\wandb\run-20220320_112118-38qxf5nu\files\output.log
+2022-03-20 11:32:47,225 INFO    Thread-11 :11916 [dir_watcher.py:_on_file_modified():230] file/dir modified: D:\GitHub_test\Pytorch-UNet\wandb\run-20220320_112118-38qxf5nu\files\output.log
+2022-03-20 11:32:51,276 INFO    Thread-11 :11916 [dir_watcher.py:_on_file_modified():230] file/dir modified: D:\GitHub_test\Pytorch-UNet\wandb\run-20220320_112118-38qxf5nu\files\output.log
+2022-03-20 11:32:52,482 DEBUG   SenderThread:11916 [sender.py:send():235] send: stats
+2022-03-20 11:32:53,293 INFO    Thread-11 :11916 [dir_watcher.py:_on_file_modified():230] file/dir modified: D:\GitHub_test\Pytorch-UNet\wandb\run-20220320_112118-38qxf5nu\files\output.log
+2022-03-20 11:32:55,302 INFO    Thread-11 :11916 [dir_watcher.py:_on_file_modified():230] file/dir modified: D:\GitHub_test\Pytorch-UNet\wandb\run-20220320_112118-38qxf5nu\files\output.log
+2022-03-20 11:32:57,325 INFO    Thread-11 :11916 [dir_watcher.py:_on_file_modified():230] file/dir modified: D:\GitHub_test\Pytorch-UNet\wandb\run-20220320_112118-38qxf5nu\files\output.log
+2022-03-20 11:32:58,665 DEBUG   HandlerThread:11916 [handler.py:handle_request():141] handle_request: stop_status
+2022-03-20 11:32:58,667 DEBUG   SenderThread:11916 [sender.py:send_request():249] send_request: stop_status
+2022-03-20 11:32:59,344 INFO    Thread-11 :11916 [dir_watcher.py:_on_file_modified():230] file/dir modified: D:\GitHub_test\Pytorch-UNet\wandb\run-20220320_112118-38qxf5nu\files\output.log
+2022-03-20 11:33:01,358 INFO    Thread-11 :11916 [dir_watcher.py:_on_file_modified():230] file/dir modified: D:\GitHub_test\Pytorch-UNet\wandb\run-20220320_112118-38qxf5nu\files\output.log
+2022-03-20 11:33:03,385 INFO    Thread-11 :11916 [dir_watcher.py:_on_file_modified():230] file/dir modified: D:\GitHub_test\Pytorch-UNet\wandb\run-20220320_112118-38qxf5nu\files\output.log
+2022-03-20 11:33:07,414 INFO    Thread-11 :11916 [dir_watcher.py:_on_file_modified():230] file/dir modified: D:\GitHub_test\Pytorch-UNet\wandb\run-20220320_112118-38qxf5nu\files\output.log
+2022-03-20 11:33:09,422 INFO    Thread-11 :11916 [dir_watcher.py:_on_file_modified():230] file/dir modified: D:\GitHub_test\Pytorch-UNet\wandb\run-20220320_112118-38qxf5nu\files\output.log
+2022-03-20 11:33:11,432 INFO    Thread-11 :11916 [dir_watcher.py:_on_file_modified():230] file/dir modified: D:\GitHub_test\Pytorch-UNet\wandb\run-20220320_112118-38qxf5nu\files\output.log
+2022-03-20 11:33:13,440 INFO    Thread-11 :11916 [dir_watcher.py:_on_file_modified():230] file/dir modified: D:\GitHub_test\Pytorch-UNet\wandb\run-20220320_112118-38qxf5nu\files\output.log
+2022-03-20 11:33:14,071 DEBUG   HandlerThread:11916 [handler.py:handle_request():141] handle_request: stop_status
+2022-03-20 11:33:14,071 DEBUG   SenderThread:11916 [sender.py:send_request():249] send_request: stop_status
+2022-03-20 11:33:17,479 INFO    Thread-11 :11916 [dir_watcher.py:_on_file_modified():230] file/dir modified: D:\GitHub_test\Pytorch-UNet\wandb\run-20220320_112118-38qxf5nu\files\output.log
+2022-03-20 11:33:17,910 DEBUG   SenderThread:11916 [sender.py:send():235] send: files
+2022-03-20 11:33:17,910 INFO    SenderThread:11916 [sender.py:_save_file():947] saving file media\images\images_37_57fd411eb3976e823c6f.png with policy now
+2022-03-20 11:33:17,917 DEBUG   SenderThread:11916 [sender.py:send():235] send: files
+2022-03-20 11:33:17,917 INFO    SenderThread:11916 [sender.py:_save_file():947] saving file media\images\true_37_6da7e43196176ab82160.png with policy now
+2022-03-20 11:33:17,922 DEBUG   SenderThread:11916 [sender.py:send():235] send: files
+2022-03-20 11:33:17,922 INFO    SenderThread:11916 [sender.py:_save_file():947] saving file media\images\pred_37_c4698e06d3c7da25f084.png with policy now
+2022-03-20 11:33:17,953 DEBUG   HandlerThread:11916 [handler.py:handle_request():141] handle_request: partial_history
+2022-03-20 11:33:18,058 DEBUG   SenderThread:11916 [sender.py:send():235] send: history
+2022-03-20 11:33:18,122 DEBUG   SenderThread:11916 [sender.py:send():235] send: summary
+2022-03-20 11:33:18,167 INFO    SenderThread:11916 [sender.py:_save_file():947] saving file wandb-summary.json with policy end
+2022-03-20 11:33:18,490 INFO    Thread-11 :11916 [dir_watcher.py:_on_file_modified():230] file/dir modified: D:\GitHub_test\Pytorch-UNet\wandb\run-20220320_112118-38qxf5nu\files\wandb-summary.json
+2022-03-20 11:33:18,490 INFO    Thread-11 :11916 [dir_watcher.py:_on_file_created():217] file/dir created: D:\GitHub_test\Pytorch-UNet\wandb\run-20220320_112118-38qxf5nu\files\media\images\true_37_6da7e43196176ab82160.png
+2022-03-20 11:33:18,500 INFO    Thread-11 :11916 [dir_watcher.py:_on_file_created():217] file/dir created: D:\GitHub_test\Pytorch-UNet\wandb\run-20220320_112118-38qxf5nu\files\media\images\pred_37_c4698e06d3c7da25f084.png
+2022-03-20 11:33:18,500 INFO    Thread-11 :11916 [dir_watcher.py:_on_file_created():217] file/dir created: D:\GitHub_test\Pytorch-UNet\wandb\run-20220320_112118-38qxf5nu\files\media\images\images_37_57fd411eb3976e823c6f.png
+2022-03-20 11:33:18,500 INFO    Thread-11 :11916 [dir_watcher.py:_on_file_modified():230] file/dir modified: D:\GitHub_test\Pytorch-UNet\wandb\run-20220320_112118-38qxf5nu\files\media\images
+2022-03-20 11:33:19,122 INFO    Thread-23 :11916 [upload_job.py:push():137] Uploaded file C:\Users\Johnson\AppData\Local\Temp\tmpgsa3gthbwandb\30gks040-media/images/pred_37_c4698e06d3c7da25f084.png
+2022-03-20 11:33:19,344 INFO    Thread-22 :11916 [upload_job.py:push():137] Uploaded file C:\Users\Johnson\AppData\Local\Temp\tmpgsa3gthbwandb\sd70ep5v-media/images/true_37_6da7e43196176ab82160.png
+2022-03-20 11:33:19,502 INFO    Thread-11 :11916 [dir_watcher.py:_on_file_modified():230] file/dir modified: D:\GitHub_test\Pytorch-UNet\wandb\run-20220320_112118-38qxf5nu\files\output.log
+2022-03-20 11:33:19,595 INFO    Thread-21 :11916 [upload_job.py:push():137] Uploaded file C:\Users\Johnson\AppData\Local\Temp\tmpgsa3gthbwandb\1ujfixd0-media/images/images_37_57fd411eb3976e823c6f.png
+2022-03-20 11:33:25,625 DEBUG   SenderThread:11916 [sender.py:send():235] send: stats
+2022-03-20 11:33:30,773 DEBUG   HandlerThread:11916 [handler.py:handle_request():141] handle_request: stop_status
+2022-03-20 11:33:30,773 DEBUG   SenderThread:11916 [sender.py:send_request():249] send_request: stop_status
+2022-03-20 11:33:38,691 DEBUG   HandlerThread:11916 [handler.py:handle_request():141] handle_request: partial_history
+2022-03-20 11:33:38,707 DEBUG   SenderThread:11916 [sender.py:send():235] send: history
+2022-03-20 11:33:38,727 DEBUG   SenderThread:11916 [sender.py:send():235] send: summary
+2022-03-20 11:33:38,778 INFO    SenderThread:11916 [sender.py:_save_file():947] saving file wandb-summary.json with policy end
+2022-03-20 11:33:38,778 INFO    Thread-11 :11916 [dir_watcher.py:_on_file_modified():230] file/dir modified: D:\GitHub_test\Pytorch-UNet\wandb\run-20220320_112118-38qxf5nu\files\wandb-summary.json
+2022-03-20 11:33:41,805 INFO    Thread-11 :11916 [dir_watcher.py:_on_file_modified():230] file/dir modified: D:\GitHub_test\Pytorch-UNet\wandb\run-20220320_112118-38qxf5nu\files\output.log
+2022-03-20 11:33:46,145 DEBUG   HandlerThread:11916 [handler.py:handle_request():141] handle_request: stop_status
+2022-03-20 11:33:46,145 DEBUG   SenderThread:11916 [sender.py:send_request():249] send_request: stop_status
+2022-03-20 11:33:58,467 DEBUG   SenderThread:11916 [sender.py:send():235] send: stats
+2022-03-20 11:33:59,871 DEBUG   HandlerThread:11916 [handler.py:handle_request():141] handle_request: partial_history
+2022-03-20 11:33:59,882 DEBUG   SenderThread:11916 [sender.py:send():235] send: history
+2022-03-20 11:33:59,897 DEBUG   SenderThread:11916 [sender.py:send():235] send: summary
+2022-03-20 11:33:59,936 INFO    SenderThread:11916 [sender.py:_save_file():947] saving file wandb-summary.json with policy end
+2022-03-20 11:33:59,938 INFO    Thread-11 :11916 [dir_watcher.py:_on_file_modified():230] file/dir modified: D:\GitHub_test\Pytorch-UNet\wandb\run-20220320_112118-38qxf5nu\files\wandb-summary.json
+2022-03-20 11:34:01,646 DEBUG   HandlerThread:11916 [handler.py:handle_request():141] handle_request: stop_status
+2022-03-20 11:34:01,646 DEBUG   SenderThread:11916 [sender.py:send_request():249] send_request: stop_status
+2022-03-20 11:34:01,948 INFO    Thread-11 :11916 [dir_watcher.py:_on_file_modified():230] file/dir modified: D:\GitHub_test\Pytorch-UNet\wandb\run-20220320_112118-38qxf5nu\files\output.log
+2022-03-20 11:34:17,163 DEBUG   HandlerThread:11916 [handler.py:handle_request():141] handle_request: stop_status
+2022-03-20 11:34:17,163 DEBUG   SenderThread:11916 [sender.py:send_request():249] send_request: stop_status
+2022-03-20 11:34:20,906 DEBUG   HandlerThread:11916 [handler.py:handle_request():141] handle_request: partial_history
+2022-03-20 11:34:20,921 DEBUG   SenderThread:11916 [sender.py:send():235] send: history
+2022-03-20 11:34:20,956 DEBUG   SenderThread:11916 [sender.py:send():235] send: summary
+2022-03-20 11:34:21,006 INFO    SenderThread:11916 [sender.py:_save_file():947] saving file wandb-summary.json with policy end
+2022-03-20 11:34:21,146 INFO    Thread-11 :11916 [dir_watcher.py:_on_file_modified():230] file/dir modified: D:\GitHub_test\Pytorch-UNet\wandb\run-20220320_112118-38qxf5nu\files\wandb-summary.json
+2022-03-20 11:34:22,148 INFO    Thread-11 :11916 [dir_watcher.py:_on_file_modified():230] file/dir modified: D:\GitHub_test\Pytorch-UNet\wandb\run-20220320_112118-38qxf5nu\files\output.log
+2022-03-20 11:34:31,410 DEBUG   SenderThread:11916 [sender.py:send():235] send: stats
+2022-03-20 11:34:32,724 DEBUG   HandlerThread:11916 [handler.py:handle_request():141] handle_request: stop_status
+2022-03-20 11:34:32,724 DEBUG   SenderThread:11916 [sender.py:send_request():249] send_request: stop_status
+2022-03-20 11:34:41,679 DEBUG   HandlerThread:11916 [handler.py:handle_request():141] handle_request: partial_history
+2022-03-20 11:34:41,702 DEBUG   SenderThread:11916 [sender.py:send():235] send: history
+2022-03-20 11:34:41,714 DEBUG   SenderThread:11916 [sender.py:send():235] send: summary
+2022-03-20 11:34:41,745 INFO    SenderThread:11916 [sender.py:_save_file():947] saving file wandb-summary.json with policy end
+2022-03-20 11:34:42,343 INFO    Thread-11 :11916 [dir_watcher.py:_on_file_modified():230] file/dir modified: D:\GitHub_test\Pytorch-UNet\wandb\run-20220320_112118-38qxf5nu\files\wandb-summary.json
+2022-03-20 11:34:43,352 INFO    Thread-11 :11916 [dir_watcher.py:_on_file_modified():230] file/dir modified: D:\GitHub_test\Pytorch-UNet\wandb\run-20220320_112118-38qxf5nu\files\output.log
+2022-03-20 11:34:48,141 DEBUG   HandlerThread:11916 [handler.py:handle_request():141] handle_request: stop_status
+2022-03-20 11:34:48,141 DEBUG   SenderThread:11916 [sender.py:send_request():249] send_request: stop_status
+2022-03-20 11:34:58,665 DEBUG   HandlerThread:11916 [handler.py:handle_request():141] handle_request: partial_history
+2022-03-20 11:34:58,678 DEBUG   SenderThread:11916 [sender.py:send():235] send: history
+2022-03-20 11:34:58,678 DEBUG   SenderThread:11916 [sender.py:send():235] send: summary
+2022-03-20 11:34:58,681 INFO    SenderThread:11916 [sender.py:_save_file():947] saving file wandb-summary.json with policy end
+2022-03-20 11:34:59,516 INFO    Thread-11 :11916 [dir_watcher.py:_on_file_modified():230] file/dir modified: D:\GitHub_test\Pytorch-UNet\wandb\run-20220320_112118-38qxf5nu\files\wandb-summary.json
+2022-03-20 11:34:59,516 INFO    Thread-11 :11916 [dir_watcher.py:_on_file_modified():230] file/dir modified: D:\GitHub_test\Pytorch-UNet\wandb\run-20220320_112118-38qxf5nu\files\output.log
+2022-03-20 11:35:03,868 WARNING MainThread:11916 [internal.py:wandb_internal():155] Internal process interrupt: 1
+2022-03-20 11:35:03,914 DEBUG   HandlerThread:11916 [handler.py:handle_request():141] handle_request: stop_status
+2022-03-20 11:35:03,914 DEBUG   SenderThread:11916 [sender.py:send_request():249] send_request: stop_status
+2022-03-20 11:35:04,397 DEBUG   SenderThread:11916 [sender.py:send():235] send: stats
+2022-03-20 11:35:07,109 WARNING MainThread:11916 [internal.py:wandb_internal():155] Internal process interrupt: 2
+2022-03-20 11:35:07,109 ERROR   MainThread:11916 [internal.py:wandb_internal():158] Internal process interrupted.
+2022-03-20 11:35:07,426 INFO    SenderThread:11916 [sender.py:finish():1078] shutting down sender
+2022-03-20 11:35:07,426 INFO    HandlerThread:11916 [handler.py:finish():778] shutting down handler
+2022-03-20 11:35:07,426 INFO    SenderThread:11916 [dir_watcher.py:finish():283] shutting down directory watcher
+2022-03-20 11:35:07,426 INFO    WriterThread:11916 [datastore.py:close():281] close: D:\GitHub_test\Pytorch-UNet\wandb\run-20220320_112118-38qxf5nu\run-38qxf5nu.wandb
+2022-03-20 11:35:07,585 INFO    SenderThread:11916 [dir_watcher.py:finish():313] scan: D:\GitHub_test\Pytorch-UNet\wandb\run-20220320_112118-38qxf5nu\files
+2022-03-20 11:35:07,585 INFO    SenderThread:11916 [dir_watcher.py:finish():327] scan save: D:\GitHub_test\Pytorch-UNet\wandb\run-20220320_112118-38qxf5nu\files\config.yaml config.yaml
+2022-03-20 11:35:07,585 INFO    SenderThread:11916 [dir_watcher.py:finish():327] scan save: D:\GitHub_test\Pytorch-UNet\wandb\run-20220320_112118-38qxf5nu\files\output.log output.log
+2022-03-20 11:35:07,585 INFO    SenderThread:11916 [dir_watcher.py:finish():327] scan save: D:\GitHub_test\Pytorch-UNet\wandb\run-20220320_112118-38qxf5nu\files\requirements.txt requirements.txt
+2022-03-20 11:35:07,585 INFO    SenderThread:11916 [dir_watcher.py:finish():327] scan save: D:\GitHub_test\Pytorch-UNet\wandb\run-20220320_112118-38qxf5nu\files\wandb-metadata.json wandb-metadata.json
+2022-03-20 11:35:07,595 INFO    SenderThread:11916 [dir_watcher.py:finish():327] scan save: D:\GitHub_test\Pytorch-UNet\wandb\run-20220320_112118-38qxf5nu\files\wandb-summary.json wandb-summary.json
+2022-03-20 11:35:07,596 INFO    SenderThread:11916 [dir_watcher.py:finish():327] scan save: D:\GitHub_test\Pytorch-UNet\wandb\run-20220320_112118-38qxf5nu\files\media\images\images_18_54aaee18931bb5ee2579.png media\images\images_18_54aaee18931bb5ee2579.png
+2022-03-20 11:35:07,596 INFO    SenderThread:11916 [dir_watcher.py:finish():327] scan save: D:\GitHub_test\Pytorch-UNet\wandb\run-20220320_112118-38qxf5nu\files\media\images\images_37_57fd411eb3976e823c6f.png media\images\images_37_57fd411eb3976e823c6f.png
+2022-03-20 11:35:07,596 INFO    SenderThread:11916 [dir_watcher.py:finish():327] scan save: D:\GitHub_test\Pytorch-UNet\wandb\run-20220320_112118-38qxf5nu\files\media\images\pred_18_f13b736c635bfb3eaad8.png media\images\pred_18_f13b736c635bfb3eaad8.png
+2022-03-20 11:35:07,596 INFO    SenderThread:11916 [dir_watcher.py:finish():327] scan save: D:\GitHub_test\Pytorch-UNet\wandb\run-20220320_112118-38qxf5nu\files\media\images\pred_37_c4698e06d3c7da25f084.png media\images\pred_37_c4698e06d3c7da25f084.png
+2022-03-20 11:35:07,596 INFO    SenderThread:11916 [dir_watcher.py:finish():327] scan save: D:\GitHub_test\Pytorch-UNet\wandb\run-20220320_112118-38qxf5nu\files\media\images\true_18_949777c907810c7a04a0.png media\images\true_18_949777c907810c7a04a0.png
+2022-03-20 11:35:07,596 INFO    SenderThread:11916 [dir_watcher.py:finish():327] scan save: D:\GitHub_test\Pytorch-UNet\wandb\run-20220320_112118-38qxf5nu\files\media\images\true_37_6da7e43196176ab82160.png media\images\true_37_6da7e43196176ab82160.png
+2022-03-20 11:35:07,596 INFO    SenderThread:11916 [file_pusher.py:finish():145] shutting down file pusher
+2022-03-20 11:35:07,596 INFO    SenderThread:11916 [file_pusher.py:join():150] waiting for file pusher
+2022-03-20 11:35:08,724 INFO    Thread-25 :11916 [upload_job.py:push():137] Uploaded file D:\GitHub_test\Pytorch-UNet\wandb\run-20220320_112118-38qxf5nu\files\output.log
+2022-03-20 11:35:08,832 INFO    Thread-26 :11916 [upload_job.py:push():137] Uploaded file D:\GitHub_test\Pytorch-UNet\wandb\run-20220320_112118-38qxf5nu\files\requirements.txt
+2022-03-20 11:35:10,487 INFO    Thread-27 :11916 [upload_job.py:push():137] Uploaded file D:\GitHub_test\Pytorch-UNet\wandb\run-20220320_112118-38qxf5nu\files\wandb-summary.json
+2022-03-20 11:35:29,882 INFO    Thread-24 :11916 [upload_job.py:push():137] Uploaded file D:\GitHub_test\Pytorch-UNet\wandb\run-20220320_112118-38qxf5nu\files\config.yaml
+2022-03-20 11:35:30,774 INFO    MainThread:11916 [internal.py:handle_exit():82] Internal process exited

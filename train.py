@@ -17,7 +17,7 @@ from evaluate import evaluate
 from unet import UNet
 
 dir_img = Path('./data/imgs/')
-dir_mask = Path('./data/mask01/')
+dir_mask = Path('./data/masks/')
 dir_checkpoint = Path('./checkpoints/')
 
 
@@ -150,8 +150,8 @@ def train_net(net,
 
 def get_args():#定义模型参数默认值
     parser = argparse.ArgumentParser(description='Train the UNet on images and target masks')
-    parser.add_argument('--epochs', '-e', metavar='E', type=int, default=5, help='Number of epochs')
-    parser.add_argument('--batch-size', '-b', dest='batch_size', metavar='B', type=int, default=1, help='Batch size')
+    parser.add_argument('--epochs', '-e', metavar='E', type=int, default=1, help='Number of epochs')
+    parser.add_argument('--batch-size', '-b', dest='batch_size', metavar='B', type=int, default=4, help='Batch size')
     parser.add_argument('--learning-rate', '-l', metavar='LR', type=float, default=1e-5,
                         help='Learning rate', dest='lr')
     parser.add_argument('--load', '-f', type=str, default=False, help='Load model from a .pth file')
@@ -173,7 +173,7 @@ if __name__ == '__main__':
     # Change here to adapt to your data
     # n_channels=3 for RGB images
     # n_classes is the number of probabilities you want to get per pixel
-    net = UNet(n_channels=1, n_classes=2, bilinear=args.bilinear)
+    net = UNet(n_channels=1, n_classes=256, bilinear=args.bilinear)
 
     logging.info(f'Network:\n'
                  f'\t{net.n_channels} input channels\n'

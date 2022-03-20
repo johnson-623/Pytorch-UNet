@@ -1,0 +1,22 @@
+{
+    "os": "Windows-10-10.0.22000-SP0",
+    "python": "3.7.6",
+    "heartbeatAt": "2022-03-20T03:21:21.514101",
+    "startedAt": "2022-03-20T03:21:18.990260",
+    "docker": null,
+    "cpu_count": 8,
+    "cuda": null,
+    "args": [],
+    "state": "running",
+    "program": "train.py",
+    "codePath": "train.py",
+    "git": {
+        "remote": "https://github.com/johnson-623/Pytorch-UNet.git",
+        "commit": "876f430b5d5adb815489c25c0902e3d02db74028"
+    },
+    "email": "54924791+johnson-623@users.noreply.github.com",
+    "root": "D:/GitHub_test/Pytorch-UNet",
+    "host": "LAPTOP-QL1IPJV0",
+    "username": "Johnson",
+    "executable": "D:\\Python37\\python.exe"
+}
